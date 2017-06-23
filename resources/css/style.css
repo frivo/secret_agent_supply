@@ -72,3 +72,71 @@ nav ul li a {
 	font-weight: bold;
 	text-decoration: none;
 }
+
+.highlights {
+	background-color: white;
+	color: black;
+}
+
+.items {
+	display: flex;
+	justify-content: space-between;
+	margin: 3em 0 0 0;
+}
+
+.item {
+	width: 30%;
+}
+
+.item-image {
+	border: 4px solid black;
+	height: 9em;
+	padding: 2em 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.item img {
+	max-width: 8em;
+}
+
+.item-name {
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	padding: 1em 0;
+}
+
+.infos {
+	display: flex;
+	justify-content: space-between;
+	margin: 2em 0;
+}
+
+.info{
+	width: 35%;
+	margin: 2em 0;	
+}
+
+.info .attribute {
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	padding: 1em 0 1em 1.5em;
+}
+
+.info .value {
+	padding: 1em 0;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	padding: 4em 0;
+}
+
+footer p {
+	opacity: 0.7;
+}
