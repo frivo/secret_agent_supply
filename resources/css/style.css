@@ -171,15 +171,6 @@ footer p {
 }
 
 @media only screen and (max-width: 470px) {
-	nav ul {
-		display: none;
-	}
-
-	nav .mobile {
-		display: block;
-		text-align: center; 
-	}
-
 	.main-banner {
 		height: 15rem;
 	}
@@ -198,16 +189,18 @@ footer p {
 		font-size: 0.77rem;
 	}
 
+	.items {
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin: 3rem 0 0 0;
+	}
 
 	.item {
 		width: 90%;
+		margin: auto;
 	}
 
 	.item.second {
-		display: none;
-	}
-
-	.item.third {
 		display: none;
 	}
 
@@ -215,11 +208,13 @@ footer p {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
+		flex-wrap: wrap;
+		margin: 3rem 0 4rem 0;
 	}
 
 	.info {
 		width: 90%;
-		margin: 0.5rem 0;	
+		margin: 0.5rem auto;	
 	}
 
 	footer {
