@@ -168,4 +168,61 @@ footer p {
 	.item.third {
 		display: none;
 	}
-} 
+}
+
+@media only screen and (max-width: 470px) {
+	nav ul {
+		display: none;
+	}
+
+	nav .mobile {
+		display: block;
+		text-align: center; 
+	}
+
+	.main-banner {
+		height: 15rem;
+	}
+
+	.banner-text {
+		width: 100%;
+		padding: 1rem 2rem;
+		top: 10rem;
+	}
+
+	.banner-text h1 {
+		font-size: 1rem;
+	}
+
+	.banner-text h4 {
+		font-size: 0.77rem;
+	}
+
+
+	.item {
+		width: 90%;
+	}
+
+	.item.second {
+		display: none;
+	}
+
+	.item.third {
+		display: none;
+	}
+
+	.infos {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.info {
+		width: 90%;
+		margin: 0.5rem 0;	
+	}
+
+	footer {
+		text-align: center;
+	}
+}
